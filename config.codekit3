@@ -21,64 +21,12 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/images\/jeswin-thomas-8nHQx4zi9Wk-unsplash.jpg" : {
-      "ft" : 16384,
-      "iS" : 2778969,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/images\/jeswin-thomas-8nHQx4zi9Wk-unsplash.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/images\/national-cancer-institute-N_aihp118p8-unsplash.jpg" : {
-      "ft" : 16384,
-      "iS" : 9560155,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/images\/national-cancer-institute-N_aihp118p8-unsplash.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/images\/picsea-EQlTyDZRx7U-unsplash.jpg" : {
-      "ft" : 16384,
-      "iS" : 2169789,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/images\/picsea-EQlTyDZRx7U-unsplash.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/images\/rawan-yasser-Y-joaXX7XCQ-unsplash.jpg" : {
-      "ft" : 16384,
-      "iS" : 1907751,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/images\/rawan-yasser-Y-joaXX7XCQ-unsplash.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/images\/renan-kamikoga-KxCq-xveKcU-unsplash.jpg" : {
+    "\/deploy\/images\/event1.jpg" : {
       "ft" : 16384,
       "iS" : 4590680,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/images\/renan-kamikoga-KxCq-xveKcU-unsplash.jpg",
+      "oAP" : "\/deploy\/images\/event1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -86,12 +34,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/images\/thisisengineering-raeng-TXxiFuQLBKQ-unsplash.jpg" : {
+    "\/deploy\/images\/event2.jpg" : {
       "ft" : 16384,
-      "iS" : 5011833,
+      "iS" : 1907751,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/images\/thisisengineering-raeng-TXxiFuQLBKQ-unsplash.jpg",
+      "oAP" : "\/deploy\/images\/event2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -99,12 +47,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/images\/valentino-funghi-fUWCe_pPPY0-unsplash.jpg" : {
+    "\/deploy\/images\/event3.jpg" : {
       "ft" : 16384,
       "iS" : 3521949,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/images\/valentino-funghi-fUWCe_pPPY0-unsplash.jpg",
+      "oAP" : "\/deploy\/images\/event3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -112,15 +60,67 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/images\/WagnerMS_Logo_Light.png" : {
+    "\/deploy\/images\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 2778969,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/logo.png" : {
       "ft" : 32768,
       "iS" : 52159,
       "oA" : 0,
-      "oAP" : "\/deploy\/images\/WagnerMS_Logo_Light.png",
+      "oAP" : "\/deploy\/images\/logo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/parentresources.jpg" : {
+      "ft" : 16384,
+      "iS" : 2169789,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/parentresources.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/staffresources.jpg" : {
+      "ft" : 16384,
+      "iS" : 5011833,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/staffresources.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/studentresources.jpg" : {
+      "ft" : 16384,
+      "iS" : 9560155,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/studentresources.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
