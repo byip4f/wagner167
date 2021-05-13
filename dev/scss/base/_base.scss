@@ -14,3 +14,20 @@ ul {
 		list-style: none;
 	}
 }
+
+main {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "hero"
+        "covidinfo"
+        "announcements"
+        "events"
+        "donate"
+		"resources"
+		"footer";
+} 
+
+.header {
+	background-color: red;
+}
