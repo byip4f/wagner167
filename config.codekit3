@@ -21,6 +21,97 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/images\/jeswin-thomas-8nHQx4zi9Wk-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 2778969,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/jeswin-thomas-8nHQx4zi9Wk-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/national-cancer-institute-N_aihp118p8-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 9560155,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/national-cancer-institute-N_aihp118p8-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/picsea-EQlTyDZRx7U-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 2169789,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/picsea-EQlTyDZRx7U-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/renan-kamikoga-KxCq-xveKcU-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 4590680,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/renan-kamikoga-KxCq-xveKcU-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/thisisengineering-raeng-TXxiFuQLBKQ-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 5011833,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/thisisengineering-raeng-TXxiFuQLBKQ-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/valentino-funghi-fUWCe_pPPY0-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 3521949,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/valentino-funghi-fUWCe_pPPY0-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/images\/WagnerMS_Logo_Light.png" : {
+      "ft" : 32768,
+      "iS" : 52159,
+      "oA" : 0,
+      "oAP" : "\/deploy\/images\/WagnerMS_Logo_Light.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -39,6 +130,78 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/design\/wagner167.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/wagner167.sketch",
+      "oF" : 0
+    },
+    "\/dev\/content\/announcements.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/announcements.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/covidinfo.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/covidinfo.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/donate.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/donate.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/events.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/events.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/footer.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/resources.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/resources.html",
+      "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
@@ -228,6 +391,25 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
@@ -238,7 +420,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 638898965.76008201,
-    "displayValue" : "in-class-demo",
+    "displayValue" : "yip_wagner167",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0
