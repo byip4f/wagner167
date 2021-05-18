@@ -392,6 +392,16 @@ main {
   grid-area: c;
 }
 
+.hero {
+  grid-area: hero;
+}
+.hero .hero-img {
+  background: url(/deploy/images/hero.jpg);
+  height: 55vh;
+  width: 100%;
+  background-size: cover;
+}
+
 .footer {
   background-color: red;
 }
@@ -414,4 +424,11 @@ p {
 
 .section-title {
   font-weight: 300;
+}
+
+.hero .hero-img {
+  background: url(/deploy/images/hero.jpg);
+  height: 55vh;
+  width: 100%;
+  background-size: cover;
 }
