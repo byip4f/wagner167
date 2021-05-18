@@ -31,23 +31,28 @@ main {
 .header {
 	grid-area: header;
 	background-color: gray;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 
 	.bottomrow {
 		ul {
 			display: grid;
-			align-items: center;
-			grid-template-columns: repeat(3,1fr);
-		}
+			grid-template-columns: repeat(9,1fr);
+			grid-template-rows: repeat(2,1fr);
+			grid-template-areas: 
+				". . . . b . . . . "
+				". a . . b . . c . ";
+		
+			.language {
+				grid-area: a;
+			}
 
-		.logo {
-			display: grid;
-			justify-content: center;
-		}
+			.logo {
+				grid-area: b;
+			}
 
-		.search {
-			display: grid;
-			justify-content: end;
+			.search {
+				grid-area: c;
+			}
 		}
 	}
 }

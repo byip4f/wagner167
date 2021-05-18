@@ -373,20 +373,22 @@ main {
 .header {
   grid-area: header;
   background-color: gray;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 .header .bottomrow ul {
   display: grid;
-  align-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: ". . . . b . . . . " ". a . . b . . c . ";
 }
-.header .bottomrow .logo {
-  display: grid;
-  justify-content: center;
+.header .bottomrow ul .language {
+  grid-area: a;
 }
-.header .bottomrow .search {
-  display: grid;
-  justify-content: end;
+.header .bottomrow ul .logo {
+  grid-area: b;
+}
+.header .bottomrow ul .search {
+  grid-area: c;
 }
 
 .footer {
