@@ -373,13 +373,14 @@ main {
 .header {
   grid-area: header;
   background-color: #CC2026;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 .header .bottomrow ul {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: ". . . b . . . " "a . . b . . c ";
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: ". . . b . . c " "a . . b . . c " ". . . b . . c ";
+  align-items: center;
   justify-items: center;
 }
 .header .bottomrow ul .language {
@@ -390,6 +391,10 @@ main {
 }
 .header .bottomrow ul .search {
   grid-area: c;
+}
+.header .bottomrow ul .search .fa-search {
+  color: white;
+  size: 100vh;
 }
 
 .hero {

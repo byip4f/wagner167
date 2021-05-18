@@ -31,16 +31,18 @@ main {
 .header {
 	grid-area: header;
 	background-color: $wagnerRed;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 
 	.bottomrow {
 		ul {
 			display: grid;
 			grid-template-columns: repeat(7,1fr);
-			grid-template-rows: repeat(2,1fr);
+			grid-template-rows: repeat(3,1fr);
 			grid-template-areas: 
-				". . . b . . . "
-				"a . . b . . c ";
+				". . . b . . c "
+				"a . . b . . c "
+				". . . b . . c ";
+			align-items: center;
 			justify-items: center;
 		
 			.language {
@@ -53,7 +55,13 @@ main {
 
 			.search {
 				grid-area: c;
+
+				.fa-search {
+					color: white;
+					size: 100vh;
+				}
 			}
+
 		}
 	}
 }
