@@ -371,7 +371,22 @@ main {
 }
 
 .header {
-  background-color: red;
+  grid-area: header;
+  background-color: gray;
+  padding-bottom: 10px;
+}
+.header .bottomrow ul {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+.header .bottomrow .logo {
+  display: grid;
+  justify-content: center;
+}
+.header .bottomrow .search {
+  display: grid;
+  justify-content: end;
 }
 
 .footer {

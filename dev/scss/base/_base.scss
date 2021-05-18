@@ -29,9 +29,28 @@ main {
 } 
 
 .header {
-	background-color: red;
-}
+	grid-area: header;
+	background-color: gray;
+	padding-bottom: 10px;
 
+	.bottomrow {
+		ul {
+			display: grid;
+			align-items: center;
+			grid-template-columns: repeat(3,1fr);
+		}
+
+		.logo {
+			display: grid;
+			justify-content: center;
+		}
+
+		.search {
+			display: grid;
+			justify-content: end;
+		}
+	}
+}
 .footer {
 	background-color: red;
 }
