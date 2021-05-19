@@ -430,6 +430,23 @@ main {
   border-radius: 15px;
 }
 
+.covidinfo {
+  grid-area: covidinfo;
+  text-align: center;
+  margin: 20px;
+}
+.covidinfo ul {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: 400px;
+}
+
+.announcements {
+  grid-area: announcements;
+  background-color: #FEE9EA;
+}
+
 .footer {
   background-color: red;
 }
