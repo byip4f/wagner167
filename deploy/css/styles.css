@@ -381,6 +381,13 @@ main {
 }
 .header .nav-wrapper {
   grid-area: a;
+  background-color: #FEE9EA;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.header .nav-wrapper li {
+  padding-bottom: 3px;
 }
 .header .logo {
   grid-area: b;
