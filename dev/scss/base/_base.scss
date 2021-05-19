@@ -31,37 +31,31 @@ main {
 .header {
 	grid-area: header;
 	background-color: $wagnerRed;
-	padding-bottom: 10px;
+	padding: 10px;
 
-	.bottomrow {
-		ul {
-			display: grid;
-			grid-template-columns: repeat(7,1fr);
-			grid-template-rows: repeat(3,1fr);
-			grid-template-areas: 
-				". . . b . . c "
-				"a . . b . . c "
-				". . . b . . c ";
-			align-items: center;
-			justify-items: center;
-		
-			.language {
-				grid-area: a;
-			}
+	display: grid;
+	grid-template-columns: repeat(7,1fr);
+	grid-template-areas: 
+		"a a b b b . c ";
 
-			.logo {
-				grid-area: b;
-			}
+	justify-items: center;
 
-			.search {
-				grid-area: c;
+	.nav-wrapper {
+		grid-area: a;
+	}
 
-				.fa-search {
-					color: white;
-					size: 100vh;
-				}
-			}
+	.logo {
+		grid-area: b;
+		position: relative;
+		top: 35%;
+	}
 
+	.search {
+		grid-area: c;
+
+		.fa-search {
+			color: white;
+			size: 100vh;
 		}
 	}
 }
