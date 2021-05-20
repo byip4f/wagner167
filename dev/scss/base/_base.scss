@@ -234,6 +234,53 @@ main {
 	}
 }
 
+.donate {
+	grid-area: donate;
+	text-align: center;
+
+	h1 {
+		background-color: $wagnerRed;
+		color: white;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	ul {
+		display: grid;
+		padding-top: 30px;	
+		grid-gap: 20px;
+		grid-template-columns: 400px;
+		justify-content: center;
+	}
+
+	.quote {
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		padding: 20px;
+	}
+
+	li {
+		display: grid;
+		grid-gap: 10px;
+	}
+
+	.bottomtext {
+		grid-gap: 30px;
+	}
+
+	.button {
+		background-color: $wagnerRed;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		color: white;
+		border-radius: 15px;
+		
+	}
+}
+
 .footer {
 	background-color: red;
 }
