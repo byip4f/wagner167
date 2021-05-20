@@ -148,6 +148,7 @@ main {
 .announcements {
 	grid-area: announcements;
 	background-color: $lightpink;
+
 	h1 {
 		background-color: $wagnerRed;
 		color: white;
@@ -195,6 +196,41 @@ main {
 			color: $wagnerRed;
 			grid-area: c;
 		}	
+	}
+}
+
+.events {
+	grid-area: events;
+
+	h1 {
+		background-color: $wagnerRed;
+		color: white;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	li {
+		position: relative;
+		text-align: center;
+	}
+
+	article {
+		position: absolute;
+		background-color: $lightpink;
+		color: black;
+		padding: 10px;
+		border-radius: 15px;
+		top: 37%;
+		left: 30%;
+		right: 30%;
+		font-size: smaller;
+
+		display: grid;
+		grid-gap: 5px;
+		i {
+			color: $wagnerRed;
+		}
 	}
 }
 

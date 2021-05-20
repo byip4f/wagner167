@@ -508,6 +508,37 @@ main {
   grid-area: c;
 }
 
+.events {
+  grid-area: events;
+}
+.events h1 {
+  background-color: #CC2026;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.events li {
+  position: relative;
+  text-align: center;
+}
+.events article {
+  position: absolute;
+  background-color: #FEE9EA;
+  color: black;
+  padding: 10px;
+  border-radius: 15px;
+  top: 37%;
+  left: 30%;
+  right: 30%;
+  font-size: smaller;
+  display: grid;
+  grid-gap: 5px;
+}
+.events article i {
+  color: #CC2026;
+}
+
 .footer {
   background-color: red;
 }
@@ -537,4 +568,29 @@ p {
   height: 55vh;
   width: 100%;
   background-size: cover;
+}
+
+.events .event1 {
+  background: url(/deploy/images/event1.jpg);
+  height: 35vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+.events .event2 {
+  background: url(/deploy/images/event2.jpg);
+  height: 35vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+.events .event3 {
+  background: url(/deploy/images/event3.jpg);
+  height: 35vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 50%;
 }
