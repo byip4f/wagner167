@@ -440,7 +440,7 @@ main {
   justify-content: center;
   grid-template-rows: 1fr;
   grid-template-columns: 400px;
-  grid-gap: 20px;
+  grid-gap: 25px;
 }
 .covidinfo .button {
   background-color: #CC2026;
@@ -469,6 +469,43 @@ main {
 .announcements {
   grid-area: announcements;
   background-color: #FEE9EA;
+}
+.announcements h1 {
+  background-color: #CC2026;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.announcements ul {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+}
+.announcements li {
+  padding: 20px;
+}
+.announcements .announcement2 {
+  background-color: white;
+}
+.announcements article {
+  display: grid;
+  grid-template-columns: auto 25px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "a ." "b ." ". c" "d .";
+}
+.announcements article h3 {
+  grid-area: a;
+}
+.announcements article p1 {
+  grid-area: b;
+}
+.announcements article p {
+  grid-area: d;
+}
+.announcements article i {
+  color: #CC2026;
+  grid-area: c;
 }
 
 .footer {
