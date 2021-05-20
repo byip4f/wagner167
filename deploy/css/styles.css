@@ -491,8 +491,8 @@ main {
 .announcements article {
   display: grid;
   grid-template-columns: auto 25px;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas: "a ." "b ." ". c" "d .";
+  grid-template-rows: 1fr 15px 1fr 1fr;
+  grid-template-areas: "a ." "b c" ". ." "d .";
 }
 .announcements article h3 {
   grid-area: a;
