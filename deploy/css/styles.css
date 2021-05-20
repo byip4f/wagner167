@@ -440,6 +440,30 @@ main {
   justify-content: center;
   grid-template-rows: 1fr;
   grid-template-columns: 400px;
+  grid-gap: 20px;
+}
+.covidinfo .button {
+  background-color: #CC2026;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  border-radius: 15px;
+}
+.covidinfo .middletext {
+  display: grid;
+  grid-template-columns: 300px;
+  justify-content: center;
+  border-top: 1px solid black;
+  padding-top: 15px;
+}
+.covidinfo .bottomtext h3 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 370px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 15px;
 }
 
 .announcements {
