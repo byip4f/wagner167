@@ -322,5 +322,50 @@ main {
 }
 
 .footer {
-	background-color: red;
+	grid-area: footer;
+	background-color: $wagnerRed;
+	
+	ul {
+		display: grid;
+		grid-template-columns: 160px 1fr auto;
+		grid-template-rows: repeat(3,1fr);
+		grid-template-areas: 
+			"a b c"
+			"d b e"
+			"f b g";
+		padding: 30px;
+		color: white;
+
+		.address1 {
+			grid-area: a;
+		}
+
+		br {
+			grid-area: d;
+		}
+
+		.address2 {
+			grid-area: f;
+		}
+
+		.logo {
+			grid-area: b;
+			display: grid;
+			justify-content: center;
+		}
+
+		.fb {
+			grid-area: c;
+			display: grid; 
+			justify-content: center;
+		}
+
+		.tw {
+			grid-area: e;
+		}
+
+		.ig {
+			grid-area: g;
+		}
+	}
 }
