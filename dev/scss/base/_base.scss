@@ -237,6 +237,7 @@ main {
 .donate {
 	grid-area: donate;
 	text-align: center;
+	margin-bottom: 30px;
 
 	h1 {
 		background-color: $wagnerRed;
@@ -278,6 +279,45 @@ main {
 		color: white;
 		border-radius: 15px;
 		
+	}
+}
+
+.resources {
+	grid-area: resources;
+	background-color: $lightpink;
+
+	h1 {
+		background-color: $wagnerRed;
+		color: white;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	ul {
+		display: grid;
+	}
+
+	li {
+		display: grid;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		grid-gap: 25px;
+	}
+
+	.center {
+		background-color: white;
+	}
+
+	a {
+		background-color: $wagnerRed;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		color: white;
+		border-radius: 15px;
 	}
 }
 

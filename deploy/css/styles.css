@@ -542,6 +542,7 @@ main {
 .donate {
   grid-area: donate;
   text-align: center;
+  margin-bottom: 30px;
 }
 .donate h1 {
   background-color: #CC2026;
@@ -570,6 +571,40 @@ main {
   grid-gap: 30px;
 }
 .donate .button {
+  background-color: #CC2026;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  border-radius: 15px;
+}
+
+.resources {
+  grid-area: resources;
+  background-color: #FEE9EA;
+}
+.resources h1 {
+  background-color: #CC2026;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.resources ul {
+  display: grid;
+}
+.resources li {
+  display: grid;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  grid-gap: 25px;
+}
+.resources .center {
+  background-color: white;
+}
+.resources a {
   background-color: #CC2026;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -633,4 +668,26 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 50%;
+}
+
+.resources .resource1 {
+  background: url(/deploy/images/studentresources.jpg);
+  height: 45vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.resources .resource2 {
+  background: url(/deploy/images/parentresources.jpg);
+  height: 45vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.resources .resource3 {
+  background: url(/deploy/images/studentresources.jpg);
+  height: 45vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
