@@ -617,39 +617,50 @@ main {
 .footer {
   grid-area: footer;
   background-color: #CC2026;
+  padding: 50px;
+}
+.footer .logo {
+  display: grid;
+  justify-content: center;
 }
 .footer ul {
-  display: grid;
-  grid-template-columns: 160px 1fr auto;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-areas: "a b c" "d b e" "f b g";
-  padding: 30px;
   color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 40px 1fr;
+  grid-template-areas: "a g d" "b g e" "c g f";
 }
 .footer ul .address1 {
   grid-area: a;
 }
 .footer ul br {
-  grid-area: d;
+  grid-area: b;
 }
 .footer ul .address2 {
-  grid-area: f;
-}
-.footer ul .logo {
-  grid-area: b;
-  display: grid;
-  justify-content: center;
+  grid-area: c;
 }
 .footer ul .fb {
-  grid-area: c;
+  grid-area: d;
   display: grid;
-  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
 .footer ul .tw {
   grid-area: e;
+  display: grid;
+  align-items: center;
+  justify-items: center;
 }
 .footer ul .ig {
+  grid-area: f;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+.footer ul .logo {
   grid-area: g;
+  display: grid;
+  align-items: center;
 }
 
 /* =============
@@ -672,9 +683,6 @@ p {
   font-weight: 300;
 }
 
-/* =============
-    Footer
-============= */
 .hero .hero-img {
   background: url(/deploy/images/hero.jpg);
   height: 55vh;

@@ -324,48 +324,60 @@ main {
 .footer {
 	grid-area: footer;
 	background-color: $wagnerRed;
-	
-	ul {
+	padding: 50px;
+
+	.logo {
 		display: grid;
-		grid-template-columns: 160px 1fr auto;
-		grid-template-rows: repeat(3,1fr);
-		grid-template-areas: 
-			"a b c"
-			"d b e"
-			"f b g";
-		padding: 30px;
+		justify-content: center;
+	}	
+
+	ul {
 		color: white;
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		grid-template-rows: 1fr 40px 1fr;
+		grid-template-areas: 
+	 		"a g d"
+	 		"b g e"
+	 		"c g f";
 
 		.address1 {
-			grid-area: a;
-		}
+	 		grid-area: a;
+	 	}
 
-		br {
-			grid-area: d;
-		}
+	 	br {
+	 		grid-area: b;
+	 	}
 
-		.address2 {
-			grid-area: f;
-		}
+	 	.address2 {
+	 		grid-area: c;
+	 	}
 
-		.logo {
-			grid-area: b;
-			display: grid;
-			justify-content: center;
-		}
-
-		.fb {
-			grid-area: c;
-			display: grid; 
-			justify-content: center;
-		}
+	 	.fb {
+	 		grid-area: d;
+			 display: grid;
+			 align-items: center;
+			 justify-items: center;
+	 	}
 
 		.tw {
 			grid-area: e;
+			display: grid;
+			align-items: center;
+			justify-items: center;
 		}
 
 		.ig {
-			grid-area: g;
-		}
+			grid-area: f;
+			display: grid;
+			align-items: center;
+			justify-items: center;
+		 }
+		
+		 .logo {
+			 grid-area: g;
+			 display: grid;
+			 align-items: center;
+		 }
 	}
 }
