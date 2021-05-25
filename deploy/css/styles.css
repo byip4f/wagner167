@@ -662,6 +662,14 @@ main {
   display: grid;
   align-items: center;
 }
+@media (min-width: 768px) {
+  .footer ul {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "a . . g . . ." "b . . g d e f" "c . . g . . .";
+  }
+}
 
 /* =============
     Typography

@@ -380,4 +380,18 @@ main {
 			 align-items: center;
 		 }
 	}
+
+	@include md {
+
+		ul {
+			display: grid;
+			grid-template-columns: repeat(7,1fr);
+			grid-template-rows: repeat(3,1fr);
+			grid-template-areas: 
+	 			"a . . g . . ."
+	 			"b . . g d e f"
+	 			"c . . g . . .";
+		}
+	}
+	
 }
