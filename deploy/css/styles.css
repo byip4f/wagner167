@@ -518,6 +518,7 @@ main {
   grid-template-columns: auto 25px;
   grid-template-rows: 1fr 15px 1fr 1fr;
   grid-template-areas: "a ." "b c" ". ." "d .";
+  grid-gap: 5px;
 }
 .announcements article h3 {
   grid-area: a;
@@ -789,6 +790,49 @@ p {
   width: 100%;
   background-size: cover;
 }
+.hero h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.hero h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.covidinfo h2 {
+  font-family: "Bitter", serif;
+  font-weight: 500;
+}
+.covidinfo .para1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.covidinfo a {
+  font-family: "Bitter", serif;
+  font-weight: 600;
+}
+.covidinfo .middletext, .covidinfo .bottomtext {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.announcements h1 {
+  font-family: "Bitter", serif;
+  font-weight: 500;
+}
+.announcements h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.announcements p1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+.announcements p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
 
 .events .event1 {
   background: url(/deploy/images/event1.jpg);
@@ -814,6 +858,55 @@ p {
   background-repeat: no-repeat;
   opacity: 50%;
 }
+.events h1 {
+  font-family: "Bitter", serif;
+  font-weight: 500;
+}
+.events h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.events p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.events h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.donate h1 {
+  font-family: "Bitter", serif;
+  font-weight: 500;
+}
+.donate .support {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.donate p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.donate .quote {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.donate .quote .name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.donate .bottomtext .upper {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.donate .bottomtext a {
+  font-family: "Bitter", serif;
+  font-weight: 600;
+}
+.donate .bottomtext .lower {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
 
 .resources .resource1 {
   background: url(/deploy/images/studentresources.jpg);
@@ -835,4 +928,21 @@ p {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.resources h1 {
+  font-family: "Bitter", serif;
+  font-weight: 500;
+}
+.resources h2 {
+  font-family: "Bitter", serif;
+  font-weight: 600;
+}
+.resources a {
+  font-family: "Bitter", serif;
+  font-weight: 600;
+}
+
+.footer p {
+  font-family: "Bitter", serif;
+  font-weight: 500;
 }
