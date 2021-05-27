@@ -303,10 +303,10 @@ main {
 		text-align: center;
 		padding-top: 25px;
 		padding-bottom: 25px;
-		grid-gap: 25px;
+		grid-gap: 15px;
 	}
 
-	.center {
+	.parent {
 		background-color: white;
 	}
 
@@ -318,6 +318,35 @@ main {
 		padding-right: 20px;
 		color: white;
 		border-radius: 15px;
+	}
+
+	@include md {
+		ul {
+			display: grid;
+			grid-template-columns: repeat(4,1fr);
+			grid-template-rows: repeat(2,1fr);
+			grid-template-areas: 
+				"a a b b"
+				". c c .";
+			grid-gap: 15px;
+		}
+
+		.student {
+			grid-area: a;
+		}
+
+		.parent {
+			background-color: $lightpink;
+			grid-area: b;
+		}
+
+		.staff {
+			grid-area: c;
+		}
+
+		li {
+			grid-gap: 20px;
+		}
 	}
 }
 
