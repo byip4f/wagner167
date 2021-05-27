@@ -458,7 +458,7 @@ main {
 .covidinfo {
   grid-area: covidinfo;
   text-align: center;
-  margin: 20px;
+  margin: 50px;
 }
 .covidinfo ul {
   display: grid;
