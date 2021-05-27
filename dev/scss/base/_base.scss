@@ -108,6 +108,14 @@ main {
 			right: 30%;
 		}
 	}
+	@include xl {
+		.container {
+			display: grid;
+			grid-template-columns: 1024px;
+			justify-content: center;
+		}
+		
+	}
 }
 
 .covidinfo {
@@ -207,6 +215,14 @@ main {
 			grid-area: c;
 		}	
 	}
+
+	@include xl {
+		li {
+			display: grid;
+			grid-template-columns: 1024px;
+			justify-content: center;
+		}
+	}
 }
 
 .events {
@@ -240,6 +256,33 @@ main {
 		grid-gap: 5px;
 		i {
 			color: $wagnerRed;
+		}
+	}
+
+	@include md {
+		article {
+			left: 35%;
+			right: 35%;
+		}
+	}
+
+	@include lg {
+		article {
+			left: 35%;
+			right: 35%;
+		}
+	}
+
+	@include xl {
+		ul {
+			display: grid;
+			grid-template-columns: 1024px;
+			justify-content: center;
+		}
+
+		article {
+			left: 35%;
+			right: 35%;
 		}
 	}
 }
@@ -358,6 +401,15 @@ main {
 			grid-gap: 20px;
 		}
 	}
+
+
+	@include xl {
+		.contain {
+			display: grid;
+			grid-template-columns: 1024px;
+			justify-content: center;
+		}
+	}
 }
 
 .footer {
@@ -443,5 +495,5 @@ main {
 			justify-content: left;
 		}
 	}
-	
+
 }
