@@ -435,7 +435,19 @@ main {
     right: 30%;
   }
 }
+@media (min-width: 1024px) {
+  .hero .outertextbox {
+    width: 36%;
+    left: 32%;
+    right: 32%;
+  }
+}
 @media (min-width: 1200px) {
+  .hero .outertextbox {
+    width: 30%;
+    left: 35%;
+    right: 35%;
+  }
   .hero .container {
     display: grid;
     grid-template-columns: 1024px;

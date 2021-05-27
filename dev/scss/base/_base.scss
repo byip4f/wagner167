@@ -101,14 +101,28 @@ main {
 	}
 	
 	@include md {
-
 		.outertextbox {
 			width: 40%;
 			left: 30%;
 			right: 30%;
 		}
 	}
+
+	@include lg {
+		.outertextbox {
+			width: 36%;
+			left: 32%;
+			right: 32%;
+		}
+	}
+
 	@include xl {
+		.outertextbox {
+				width: 30%;
+				left: 35%;
+				right: 35%;
+		}
+
 		.container {
 			display: grid;
 			grid-template-columns: 1024px;
