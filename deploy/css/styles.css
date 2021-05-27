@@ -667,7 +667,15 @@ main {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "a . . g . . ." "b . . g d e f" "c . . g . . .";
+    grid-template-areas: ". a a g . . ." ". b b g d e f" ". c c g . . .";
+  }
+  .footer .fb {
+    display: grid;
+    justify-content: right;
+  }
+  .footer .ig {
+    display: grid;
+    justify-content: left;
   }
 }
 

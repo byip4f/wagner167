@@ -388,9 +388,20 @@ main {
 			grid-template-columns: repeat(7,1fr);
 			grid-template-rows: repeat(3,1fr);
 			grid-template-areas: 
-	 			"a . . g . . ."
-	 			"b . . g d e f"
-	 			"c . . g . . .";
+	 			". a a g . . ."
+	 			". b b g d e f"
+	 			". c c g . . .";
+		}
+		
+
+		.fb {
+			display: grid;
+			justify-content: right;
+		}
+
+		.ig {
+			display: grid;
+			justify-content: left;
 		}
 	}
 	
