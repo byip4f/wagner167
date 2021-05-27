@@ -73,19 +73,19 @@ main {
 
 	.container {
 		position: relative;
-		text-align: center;
 	}
 
 	.outertextbox {
 		position: absolute;
+		top: 60%;
+		left: 24%;
+		right: 24%;
 		background-color: $lightpink;
-		color: black;
 		padding: 15px;
 		border-radius: 15px;
-		top: 60%;
-		left: 30%;
-		right: 30%;
-		font-size: smaller;
+		text-align: center;
+		width: 52%;
+		
 	}
 
 	h3 {
@@ -97,7 +97,17 @@ main {
 		color: white;
 		padding: 10px;
 		border-radius: 15px;
-	}	
+		
+	}
+	
+	@include md {
+
+		.outertextbox {
+			width: 40%;
+			left: 30%;
+			right: 30%;
+		}
+	}
 }
 
 .covidinfo {

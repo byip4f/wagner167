@@ -407,18 +407,17 @@ main {
 }
 .hero .container {
   position: relative;
-  text-align: center;
 }
 .hero .outertextbox {
   position: absolute;
+  top: 60%;
+  left: 24%;
+  right: 24%;
   background-color: #FEE9EA;
-  color: black;
   padding: 15px;
   border-radius: 15px;
-  top: 60%;
-  left: 30%;
-  right: 30%;
-  font-size: smaller;
+  text-align: center;
+  width: 52%;
 }
 .hero h3 {
   padding-bottom: 10px;
@@ -428,6 +427,13 @@ main {
   color: white;
   padding: 10px;
   border-radius: 15px;
+}
+@media (min-width: 768px) {
+  .hero .outertextbox {
+    width: 40%;
+    left: 30%;
+    right: 30%;
+  }
 }
 
 .covidinfo {
