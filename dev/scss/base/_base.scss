@@ -36,8 +36,10 @@ main {
 	.contain {
 		display: grid;
 		grid-template-columns: repeat(7,1fr);
+		grid-template-rows: 1fr 25px;
 		grid-template-areas: 
-		"a . b b b . c ";
+		"a . b b b . c "
+		". d d d d d . ";
 
 		.nav-wrapper {
 			grid-area: a;
@@ -74,8 +76,27 @@ main {
 				size: 100vh;
 			}
 		}
+		
+		.title {
+			display: none;
+		}
+
+		@include lg {
+			.title {
+				grid-area: d;
+	
+				font-family: 'Bitter', serif;
+				font-weight: 500;
+				color: white;
+	
+				display: grid;
+				justify-content: center;
+			}
+		}
 	}
 
+	
+	
 	@include xl {
 		display: grid;
 		grid-template-columns: 1024px;

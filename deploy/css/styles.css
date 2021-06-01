@@ -378,7 +378,8 @@ main {
 .header .contain {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  grid-template-areas: "a . b b b . c ";
+  grid-template-rows: 1fr 25px;
+  grid-template-areas: "a . b b b . c " ". d d d d d . ";
 }
 .header .contain .nav-wrapper {
   grid-area: a;
@@ -407,6 +408,19 @@ main {
 .header .contain .search .fa-search {
   color: white;
   size: 100vh;
+}
+.header .contain .title {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .header .contain .title {
+    grid-area: d;
+    font-family: "Bitter", serif;
+    font-weight: 500;
+    color: white;
+    display: grid;
+    justify-content: center;
+  }
 }
 @media (min-width: 1200px) {
   .header {
