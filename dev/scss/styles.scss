@@ -9,6 +9,12 @@
 @import "base/_base";
 @import "base/_typography";
 
+// Component Styles
+@import "components/_navigation";
+
+
+
+// Section Styles
 @import "content/_header";
 @import "content/_hero";
 @import "content/covidinfo";
@@ -17,4 +23,3 @@
 @import "content/donate";
 @import "content/resources";
 @import "content/footer";
-@import "content/navigation";

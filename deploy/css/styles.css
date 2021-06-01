@@ -815,6 +815,14 @@ p {
   font-weight: 300;
 }
 
+/* =============
+    Navigation
+============= */
+a {
+  text-decoration: none;
+  transition: 0.25s;
+}
+
 .hero .hero-img {
   background: url(/deploy/images/hero.jpg);
   height: 55vh;
