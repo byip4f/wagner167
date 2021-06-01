@@ -33,38 +33,55 @@ main {
 	background-color: $wagnerRed;
 	padding: 10px;
 
-	display: grid;
-	grid-template-columns: repeat(7,1fr);
-	grid-template-areas: 
-		"a a b b b . c ";
+	.contain {
+		display: grid;
+		grid-template-columns: repeat(7,1fr);
+		grid-template-areas: 
+		"a . b b b . c ";
 
-	justify-items: center;
+		.nav-wrapper {
+			grid-area: a;
+			background-color: $lightpink;
+			padding-top: 5px;
+			padding-left: 5px;
+			padding-right: 5px;
 
-	.nav-wrapper {
-		grid-area: a;
-		background-color: $lightpink;
-		padding-top: 5px;
-		padding-left: 5px;
-		padding-right: 5px;
+			display: grid;
+			justify-content: left;
 
-		li {
-			padding-bottom: 3px;
+			li {
+				padding-bottom: 3px;
+			}
+
+		
+		}
+
+		.logo {
+			grid-area: b;
+			position: relative;
+			top: 45%;
+
+			display: grid;
+			justify-content: center;
+		}
+
+		.search {
+			grid-area: c;
+
+			display: grid;
+			justify-content: right;
+
+			.fa-search {
+				color: white;
+				size: 100vh;
+			}
 		}
 	}
 
-	.logo {
-		grid-area: b;
-		position: relative;
-		top: 45%;
-	}
-
-	.search {
-		grid-area: c;
-
-		.fa-search {
-			color: white;
-			size: 100vh;
-		}
+	@include xl {
+		display: grid;
+		grid-template-columns: 1024px;
+		justify-content: center;
 	}
 }
 
@@ -78,13 +95,13 @@ main {
 	.outertextbox {
 		position: absolute;
 		top: 60%;
-		left: 24%;
-		right: 24%;
+		left: 25%;
+		right: 25%;
 		background-color: $lightpink;
 		padding: 15px;
 		border-radius: 15px;
 		text-align: center;
-		width: 52%;
+		width: fit-content;
 		
 	}
 
@@ -102,25 +119,22 @@ main {
 	
 	@include md {
 		.outertextbox {
-			width: 40%;
-			left: 30%;
-			right: 30%;
-		}
-	}
-
-	@include lg {
-		.outertextbox {
-			width: 36%;
 			left: 32%;
 			right: 32%;
 		}
 	}
 
+	@include lg {
+		.outertextbox {
+			left: 36%;
+			right: 36%;
+		}
+	}
+
 	@include xl {
 		.outertextbox {
-				width: 30%;
-				left: 35%;
-				right: 35%;
+				left: 38%;
+				right: 38%;
 		}
 
 		.container {
@@ -129,6 +143,12 @@ main {
 			justify-content: center;
 		}
 		
+	}
+
+	@include xl-hero-2 {
+		.outertextbox {
+			left: 41%;
+		}
 	}
 }
 

@@ -4,6 +4,7 @@
         height: 55vh;
         width: 100%;
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
     h3 {
@@ -15,4 +16,15 @@
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
     }
+
+    @include lg {
+        .hero-img {
+            height: 70vh;
+        }
+    }
+
+    @include xl {
+        background-color: $lightpink;
+    }
+    
 }
