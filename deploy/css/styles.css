@@ -488,7 +488,10 @@ main {
 .covidinfo {
   grid-area: covidinfo;
   text-align: center;
-  margin: 50px;
+  margin: 30px;
+}
+.covidinfo h2 {
+  padding-bottom: 30px;
 }
 .covidinfo ul {
   display: grid;
@@ -553,7 +556,7 @@ main {
 .announcements article h3 {
   grid-area: a;
 }
-.announcements article p1 {
+.announcements article .dates {
   grid-area: b;
 }
 .announcements article p {
@@ -732,7 +735,8 @@ main {
 .footer {
   grid-area: footer;
   background-color: #CC2026;
-  padding: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .footer .logo {
   display: grid;
@@ -747,9 +751,6 @@ main {
 }
 .footer ul .address1 {
   grid-area: a;
-}
-.footer ul br {
-  grid-area: b;
 }
 .footer ul .address2 {
   grid-area: c;
@@ -780,9 +781,9 @@ main {
 @media (min-width: 768px) {
   .footer ul {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: 1fr 110px 110px 1fr 90px 90px 80px 1fr;
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: ". a a g . . ." ". b b g d e f" ". c c g . . .";
+    grid-template-areas: ". a a g . . . ." ". b b g d e f ." ". c c g . . . .";
   }
   .footer .fb {
     display: grid;
@@ -865,7 +866,7 @@ p {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
 }
-.announcements p1 {
+.announcements .dates {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
   font-style: italic;
