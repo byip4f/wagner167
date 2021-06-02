@@ -852,10 +852,11 @@ a {
 
 #nav-container {
   font-family: "Bitter", serif;
+  display: none;
 }
 #nav-container .nav-btns {
   display: inline-block;
-  color: white;
+  color: black;
   text-decoration: none;
   margin: 0 auto;
   padding: 10px 5px;
