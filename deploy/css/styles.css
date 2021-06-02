@@ -373,7 +373,8 @@ main {
 .header {
   grid-area: header;
   background-color: #CC2026;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .header .contain {
   display: grid;
@@ -381,7 +382,6 @@ main {
   grid-template-rows: 1fr 25px;
   grid-row-gap: 10px;
   grid-template-areas: "a . b b b . c " ". d d d d d . ";
-  align-items: center;
   justify-items: center;
 }
 .header .contain .nav-wrapper {
@@ -420,7 +420,8 @@ main {
 }
 @media (min-width: 1024px) {
   .header .contain {
-    grid-template-rows: 1fr 25px 70px;
+    align-items: center;
+    grid-template-rows: 1fr 30px 60px;
     grid-template-areas: "a . b b b . c " ". d d d d d . " ". e e e e e . ";
   }
   .header .contain .nav-wrapper {
@@ -834,6 +835,15 @@ a {
   transition: 0.25s;
 }
 
+.nav-wrapper {
+  background-color: #FEE9EA;
+}
+@media (min-width: 1024px) {
+  .nav-wrapper {
+    background-color: #CC2026;
+  }
+}
+
 @media (min-width: 1024px) {
   .burger-wrapper {
     display: none;
@@ -845,6 +855,7 @@ a {
 }
 #nav-container .nav-btns {
   display: inline-block;
+  color: white;
   text-decoration: none;
   margin: 0 auto;
   padding: 10px 5px;
@@ -855,7 +866,7 @@ a {
   border-bottom: 2px solid white;
 }
 #nav-container .nav-btns:active {
-  background: blue;
+  background: white;
 }
 #nav-container ul li {
   text-align: center;
