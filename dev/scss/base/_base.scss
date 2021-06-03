@@ -33,6 +33,8 @@ main {
 	background-color: $wagnerRed;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
 
 	.contain {
 		display: grid;
@@ -42,14 +44,11 @@ main {
 		grid-template-areas: 
 		"a . b b b . c "
 		". d d d d d . ";
-		justify-items: center;
+		
 
 		.nav-wrapper {
 			grid-area: a;
 			color: white;
-			padding-top: 5px;
-			padding-left: 5px;
-			padding-right: 5px;
 
 			li {
 				padding-bottom: 3px;
@@ -58,10 +57,14 @@ main {
 
 		.logo {
 			grid-area: b;
+			display: grid;
+			justify-content: center;
 		}
 
 		.search {
 			grid-area: c;
+			display: grid;
+			justify-content: right;
 
 			.fa-search {
 				color: white;
@@ -79,6 +82,7 @@ main {
 
 		.title {
 			grid-area: d;
+			padding-bottom: 10px;
 
 			font-family: 'Bitter', serif;
 			font-weight: 500;
@@ -121,20 +125,20 @@ main {
 .hero {
 	grid-area: hero;
 
-	.container {
-		position: relative;
+	article {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.outertextbox {
-		position: absolute;
-		top: 60%;
-		left: 25%;
-		right: 25%;
 		background-color: $lightpink;
 		padding: 15px;
 		border-radius: 15px;
 		text-align: center;
 		width: fit-content;
+		left: 0;
+		top: 220px;
 	}
 
 	h3 {
@@ -148,26 +152,8 @@ main {
 		border-radius: 15px;
 		
 	}
-	
-	@include md {
-		.outertextbox {
-			left: 33%;
-			right: 33%;
-		}
-	}
-
-	@include lg {
-		.outertextbox {
-			left: 36%;
-			right: 36%;
-		}
-	}
 
 	@include xl {
-		.outertextbox {
-				left: 38%;
-				right: 38%;
-		}
 
 		.container {
 			display: grid;
@@ -175,12 +161,6 @@ main {
 			justify-content: center;
 		}
 		
-	}
-
-	@include xl-hero-2 {
-		.outertextbox {
-			left: 41%;
-		}
 	}
 }
 
@@ -487,8 +467,7 @@ main {
 .footer {
 	grid-area: footer;
 	background-color: $wagnerRed;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding: 30px;
 
 	.logo {
 		display: grid;
@@ -542,26 +521,19 @@ main {
 	}
 
 	@include md {
+		section {
+			display: flex;
+			justify-content: center;
+		}
 
 		ul {
 			display: grid;
-			grid-template-columns: 1fr 110px 110px 1fr 90px 90px 80px 1fr;
+			grid-template-columns: 110px 110px 1fr 90px 40px 90px;
 			grid-template-rows: repeat(3,1fr);
 			grid-template-areas: 
-	 			". a a g . . . ."
-	 			". b b g d e f ."
-	 			". c c g . . . .";
-		}
-		
-
-		.fb {
-			display: grid;
-			justify-content: right;
-		}
-
-		.ig {
-			display: grid;
-			justify-content: left;
+	 			"a a g . . ."
+	 			"b b g d e f"
+	 			"c c g . . .";
 		}
 	}
 
