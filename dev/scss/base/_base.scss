@@ -31,10 +31,11 @@ main {
 .header {
 	grid-area: header;
 	background-color: $wagnerRed;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
+	text-align: center;
 
 	.contain {
 		display: grid;

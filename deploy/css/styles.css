@@ -373,10 +373,11 @@ main {
 .header {
   grid-area: header;
   background-color: #CC2026;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  text-align: center;
 }
 .header .contain {
   display: grid;
