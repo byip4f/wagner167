@@ -389,7 +389,7 @@ main {
   padding-bottom: 15px;
   padding-right: 30px;
   padding-left: 30px;
-  text-align: center;
+  border-bottom: 1px solid black;
 }
 .header .contain {
   display: grid;
@@ -502,6 +502,19 @@ main {
   grid-area: covidinfo;
   text-align: center;
   margin: 30px;
+  position: relative;
+}
+.covidinfo .anchor {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  top: -40px;
+  left: 0;
+  visibility: hidden;
+  padding-top: 230px;
+  margin-top: -230px;
 }
 .covidinfo h2 {
   padding-bottom: 30px;
@@ -540,6 +553,19 @@ main {
 .announcements {
   grid-area: announcements;
   background-color: #FEE9EA;
+  position: relative;
+}
+.announcements .anchor {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  top: -40px;
+  left: 0;
+  visibility: hidden;
+  padding-top: 200px;
+  margin-top: -200px;
 }
 .announcements h1 {
   background-color: #CC2026;
@@ -589,6 +615,19 @@ main {
 
 .events {
   grid-area: events;
+  position: relative;
+}
+.events .anchor {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  top: -40px;
+  left: 0;
+  visibility: hidden;
+  padding-top: 200px;
+  margin-top: -200px;
 }
 .events h1 {
   background-color: #CC2026;
@@ -644,7 +683,19 @@ main {
 .donate {
   grid-area: donate;
   text-align: center;
-  margin-bottom: 30px;
+  position: relative;
+}
+.donate .anchor {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  top: -40px;
+  left: 0;
+  visibility: hidden;
+  padding-top: 200px;
+  margin-top: -200px;
 }
 .donate h1 {
   background-color: #CC2026;
@@ -671,6 +722,7 @@ main {
 }
 .donate .bottomtext {
   grid-gap: 30px;
+  margin-bottom: 35px;
 }
 .donate .button {
   background-color: #CC2026;
@@ -685,6 +737,19 @@ main {
 .resources {
   grid-area: resources;
   background-color: #FEE9EA;
+  position: relative;
+}
+.resources .anchor {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  top: -40px;
+  left: 0;
+  visibility: hidden;
+  padding-top: 205px;
+  margin-top: -205px;
 }
 .resources h1 {
   background-color: #CC2026;
@@ -876,6 +941,7 @@ a {
   display: grid;
   grid-gap: 10px;
   text-align: center;
+  justify-content: center;
 }
 @media (min-width: 1024px) {
   #nav-container {
