@@ -28,13 +28,24 @@ main {
 		"footer";
 } 
 
+header {
+	@include lg {
+		position: fixed;
+		z-index: 99999;
+	}
+
+	@include xl {
+		width: 100%;
+	}
+}
+
 .header {
 	grid-area: header;
 	background-color: $wagnerRed;
 	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-left: 30px;
+	padding-bottom: 15px;
 	padding-right: 30px;
+	padding-left: 30px;
 	text-align: center;
 
 	.contain {
@@ -120,6 +131,7 @@ main {
 		display: grid;
 		grid-template-columns: 1024px;
 		justify-content: center;
+		padding-left: 0;
 	}
 }
 
@@ -152,6 +164,10 @@ main {
 		padding: 10px;
 		border-radius: 15px;
 		
+	}
+
+	@include lg {
+		padding-top: 240px;
 	}
 
 	@include xl {
@@ -211,7 +227,6 @@ main {
 			
 		}
 	}
-
 }
 
 .announcements {

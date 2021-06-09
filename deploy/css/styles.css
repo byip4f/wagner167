@@ -370,13 +370,25 @@ main {
   grid-template-areas: "header" "hero" "covidinfo" "announcements" "events" "donate" "resources" "footer";
 }
 
+@media (min-width: 1024px) {
+  header {
+    position: fixed;
+    z-index: 99999;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    width: 100%;
+  }
+}
+
 .header {
   grid-area: header;
   background-color: #CC2026;
   padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
+  padding-bottom: 15px;
   padding-right: 30px;
+  padding-left: 30px;
   text-align: center;
 }
 .header .contain {
@@ -443,6 +455,7 @@ main {
     display: grid;
     grid-template-columns: 1024px;
     justify-content: center;
+    padding-left: 0;
   }
 }
 
@@ -471,6 +484,11 @@ main {
   color: white;
   padding: 10px;
   border-radius: 15px;
+}
+@media (min-width: 1024px) {
+  .hero {
+    padding-top: 240px;
+  }
 }
 @media (min-width: 1200px) {
   .hero .container {
