@@ -450,6 +450,7 @@ header {
 				"a a b b"
 				". c c .";
 			grid-gap: 15px;
+			padding-bottom: 10px;
 		}
 
 		.student {
@@ -467,6 +468,10 @@ header {
 
 		li {
 			grid-gap: 20px;
+		}
+
+		div {
+			padding-top: 10px;
 		}
 	}
 

@@ -722,6 +722,7 @@ main {
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "a a b b" ". c c .";
     grid-gap: 15px;
+    padding-bottom: 10px;
   }
   .resources .student {
     grid-area: a;
@@ -735,6 +736,9 @@ main {
   }
   .resources li {
     grid-gap: 20px;
+  }
+  .resources div {
+    padding-top: 10px;
   }
 }
 @media (min-width: 1200px) {
